@@ -12,12 +12,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
-steps:
-- task: DotNetCoreCLI@2
- inputs:
- command: test
- projects: '**/*AzureKeyVaultDemo/*.csproj'
- arguments: '--configuration $(buildConfiguration)'
+
 
 
 - script: dotnet build --configuration $(buildConfiguration)
