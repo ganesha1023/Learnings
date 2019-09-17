@@ -28,7 +28,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: '\AzureKeyVaultDemo\AzureKeyVaultDemo.csproj'
+    projects: 'AzureKeyVaultDemo/AzureKeyVaultDemo.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
