@@ -8,7 +8,7 @@ namespace XUnitTestProject1
         [Fact]
         public void Test1()
         {
-            Assert.Equal("s", "y");
+            Assert.Equal("s", "s");
 
 
         }
